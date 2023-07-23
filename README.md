@@ -1,2 +1,28 @@
-# blog-next-mui-async-autocomplete-api-demo
-Next.js MUI asynchronous autocomplete using API calls to Chinook SQlite database  
+# Next.JS MUI version 5.11.x Postgres CRUD App
+## Vercel Postgres - Create Read Update Delete Example App
+
+## List of features for this example
+<ol>
+<li>MUI Async Autocomplete </li>
+<li>Next.js API Calls </li>
+<li>Chinook SQlite database</li>
+</ol>
+
+## Running locally in development mode
+
+    npm install
+    npm run dev
+
+Note: If you are running on Windows run install --noptional flag (i.e. `npm install --no-optional`) which will skip installing fsevents.
+
+## Building and deploying in production
+
+If you wanted to run this site in production, you should install modules then build the site with `npm run build` and run it with `npm start`:
+
+    npm install
+    npm run build
+    npm start
+
+You should run `npm run build` again any time you make changes to the site.
+
+Note: If you are already running a webserver on port 80 (e.g. Macs usually have the Apache webserver running on port 80) you can still start the example in production mode by passing a different port as an Environment Variable when starting (e.g. `PORT=3000 npm start`).
